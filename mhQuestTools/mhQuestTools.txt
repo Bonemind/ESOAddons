@@ -1,0 +1,15 @@
+## APIVersion: 100003
+## Title: |cFF2222Wykkyd's|r Quest Tools |c0066991.4.12.2|r 
+## Version: 1.4.12.2
+## Author: Wykkyd
+## DependsOn: mhFramework
+
+## SavedVariables: mhQuestTools
+
+mhQuestTools.lua
+Lib/Globals.lua
+Lib/Methods.lua
+Lib/CommandLine.lua
+Lib/UserInterface.lua
+Bindings/bindings.xml
+Bindings/Bindings.lua

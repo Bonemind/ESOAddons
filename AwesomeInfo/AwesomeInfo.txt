@@ -1,0 +1,11 @@
+## Title: Awesome Info
+## APIVersion: 100003
+## OptionalDependsOn: LibAddonMenu-1.0, LibStub
+## SavedVariables: AI_SavedVariables
+
+Libs/LibStub/LibStub.lua
+Libs/LibAddonMenu-1.0/LibAddonMenu-1.0.lua
+
+AwesomeInfo.lua
+AwesomeInfoConfig.lua
+AwesomeInfo.xml

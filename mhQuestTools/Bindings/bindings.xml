@@ -1,0 +1,9 @@
+<Bindings>
+  <Layer name="General">
+	<Category name="|cFF2222Wykkyd's|r Quest Tracker">
+	  <Action name="TOGGLE_QUEST_TRACKER">
+		<Down>WF_QuestTools.ToggleQuestWindow()</Down>
+	  </Action>
+	</Category>
+  </Layer>
+</Bindings>

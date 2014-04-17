@@ -1,0 +1,8 @@
+<!-- LibDragWin-1.0 ------------------------------------------ -->
+<!-- Temporary XML frame base until OnUpdate from LUA is fixed -->
+<!-- --------------------------------------------------------- -->
+<GuiXml>
+	<Controls>
+		<TopLevelControl name="LibDragWinHandler" virtual="true" />
+	</Controls>
+</GuiXml>

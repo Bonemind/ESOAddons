@@ -1,0 +1,50 @@
+<Bindings>
+  <Layer name="General">
+    <Category name="|cFF2222Wykkyd's|r Framework Mouse Control">
+      <Action name="TOGGLE_MOUSE_CURSOR">
+        <Down>wykkydsFramework.ToggleMouse()</Down>
+      </Action>
+    </Category>
+    <Category name="|cFF2222Wykkyd's|r Framework Macro Window">
+      <Action name="TOGGLE_MACRO_FRAME">
+        <Down>wykkydsFramework.MacroFrame(true)</Down>
+      </Action>
+      <Action name="MACRO_BUTTON_1">
+        <Down>wykkydsFramework.MacroButton(1)</Down>
+      </Action>
+      <Action name="MACRO_BUTTON_2">
+        <Down>wykkydsFramework.MacroButton(2)</Down>
+      </Action>
+      <Action name="MACRO_BUTTON_3">
+        <Down>wykkydsFramework.MacroButton(3)</Down>
+      </Action>
+      <Action name="MACRO_BUTTON_4">
+        <Down>wykkydsFramework.MacroButton(4)</Down>
+      </Action>
+      <Action name="MACRO_BUTTON_5">
+        <Down>wykkydsFramework.MacroButton(5)</Down>
+      </Action>
+      <Action name="MACRO_BUTTON_6">
+        <Down>wykkydsFramework.MacroButton(6)</Down>
+      </Action>
+      <Action name="MACRO_BUTTON_7">
+        <Down>wykkydsFramework.MacroButton(7)</Down>
+      </Action>
+      <Action name="MACRO_BUTTON_8">
+        <Down>wykkydsFramework.MacroButton(8)</Down>
+      </Action>
+      <Action name="MACRO_BUTTON_9">
+        <Down>wykkydsFramework.MacroButton(9)</Down>
+      </Action>
+      <Action name="MACRO_BUTTON_10">
+        <Down>wykkydsFramework.MacroButton(10)</Down>
+      </Action>
+      <Action name="MACRO_BUTTON_11">
+        <Down>wykkydsFramework.MacroButton(11)</Down>
+      </Action>
+      <Action name="MACRO_BUTTON_12">
+        <Down>wykkydsFramework.MacroButton(12)</Down>
+      </Action>
+    </Category>
+  </Layer>
+</Bindings>

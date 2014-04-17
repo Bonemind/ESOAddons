@@ -1,0 +1,18 @@
+## Title: SkyShards - By |c00A000@Garkin|r
+## Description: Adds map pins for skyshards.
+## Version: 0.5.3
+## Author: @Garkin
+## APIVersion: 100003
+## SavedVariables: SkyS_SavedVariables
+## OptionalDependsOn: LibStub LibAddonMenu-1.0 CustomCompassPins
+
+Libs/LibStub/LibStub.lua
+Libs/LibAddonMenu-1.0/LibAddonMenu-1.0.lua
+Libs/CustomCompassPins/CustomCompassPins.lua
+
+Language/SkyShardsEN.lua
+Language/SkyShardsDE.lua
+Language/SkyShardsFR.lua
+
+SkyShardsData.lua
+SkyShards.lua

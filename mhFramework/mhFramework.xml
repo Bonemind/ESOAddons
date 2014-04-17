@@ -1,0 +1,7 @@
+<GuiXml>
+<Controls>
+<TopLevelControl name="mhFrameworkXMLControlUpdateHook">
+	<OnUpdate>wykkydsFramework.Events.Update()</OnUpdate>
+</TopLevelControl>
+</Controls>
+</GuiXml>

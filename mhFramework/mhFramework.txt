@@ -1,0 +1,61 @@
+## APIVersion: 100003
+## Title: |cFF2222Wykkyd's|r Framework |c0066991.4.14.1|r 
+## Version: 1.4.14.1
+## Author: Wykkyd
+## OptionalDependsOn: LibAddonMenu-1.0
+
+## SavedVariables: mhFramework
+## SavedVariables: mhFrameworkFrames
+## SavedVariables: mhFrameworkNeatStuff
+## SavedVariables: mhFrameworkOldSavesDeprecated
+
+Lib/LibStub/LibStub.lua
+Lib/LibAddonMenu-1.0/LibAddonMenu-1.0.lua
+
+mhFramework.lua
+Lib/Globals.lua
+Lib/Globals.GameImages.lua
+Lib/Events.List.lua
+Lib/Util.lua
+Lib/ScrollFrames/ScrollFrames.lua
+Lib/Macros/Macros.lua
+Lib/Macros/Frames.lua
+Lib/Macros/Commands.lua
+Lib/Macros/Editor.lua
+Lib/Frames/Frames.lua
+Lib/Frames/UIBackdrop.lua
+Lib/Frames/UILabel.lua
+Lib/Frames/UITextBlock.lua
+Lib/Frames/UIFrame.lua
+Lib/Frames/UIButton.lua
+Lib/Frames/UIWindow.lua
+Lib/Frames/UIPopups.lua
+Lib/CommandLine.lua
+Lib/SavedVariables.lua
+Lib/Bazgrim/Toolbar.lua
+Lib/Bazgrim/Toolbar/Bags.lua
+Lib/Bazgrim/Toolbar/FPS.lua
+Lib/Bazgrim/Toolbar/Money.lua
+Lib/Bazgrim/Toolbar/Time.lua
+Lib/Bazgrim/Toolbar/XP.lua
+Lib/Bazgrim/Toolbar/Zone.lua
+Lib/Bazgrim/Toolbar/AP.lua
+Lib/Bazgrim/Toolbar/XPBar.lua
+Lib/Bazgrim/Toolbar/SpecialWorldXPBar.lua
+Lib/Bazgrim/Toolbar/ScrollingExp.lua
+Lib/Bazgrim/Toolbar/UnitInfo.lua
+Lib/Bazgrim/Toolbar/SoulGems.lua
+Lib/Bazgrim/Toolbar/Horse.lua
+Lib/Bazgrim/Toolbar/Craft.lua
+Lib/Bazgrim/Subtitles.lua
+Lib/SettingsMenu/SettingsMenu.lua
+Lib/EnhancedHUD/Player.lua
+Lib/Addons.lua
+Lib/Startup.lua
+Lib/Events.lua
+API.lua
+Lib/API.lua
+Lib/ImageViewer.lua
+Bindings/bindings.xml
+Bindings/Bindings.lua
+mhFramework.xml

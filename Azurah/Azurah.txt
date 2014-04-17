@@ -1,0 +1,28 @@
+## Title: Azurah
+## APIVersion: 100003
+## SavedVariables: AzurahDB
+## OptionalDependsOn: LibAddonMenu-1.0 LibMediaProvider-1.0 LibDragWin-1.0
+## Author: Kith
+
+Lib/LibStub/LibStub.lua
+Lib/LibAddonMenu-1.0/LibAddonMenu-1.0.lua
+Lib/LibMediaProvider-1.0/LibMediaProvider-1.0.lua
+Lib/LibDragWin-1.0/LibDragWin-1.0.xml
+Lib/LibDragWin-1.0/LibDragWin-1.0.lua
+
+Azurah.xml
+
+Locales\Local_en.lua
+
+Azurah.lua
+Elements.lua
+RangeFinder.lua
+Unlock.lua
+Settings.lua
+
+
+
+
+
+
+
