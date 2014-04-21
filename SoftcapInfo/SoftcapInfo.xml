@@ -1,0 +1,60 @@
+<GuiXml>
+    <Controls>
+        <Control name="SCI_StatsEntry" virtual="true" mouseEnabled="true">
+            <Dimensions x="295" y="20" />
+            <OnInitialized>
+                self.name = self:GetNamedChild("Name")
+                self.value = self:GetNamedChild("Value")
+                self.softcap = self:GetNamedChild("Softcap_Value")
+                self.malus = self:GetNamedChild("Softcap_Malus")
+                self.ratio = self:GetNamedChild("Softcap_Ratio")
+                self.pendingBonus = self:GetNamedChild("PendingBonus")
+                self.diminishingReturns = self:GetNamedChild("DiminishingReturns")
+            </OnInitialized>
+            <OnMouseEnter>
+                ZO_StatsEntry_OnMouseEnter(self)
+            </OnMouseEnter>
+            <OnMouseExit>
+                ZO_StatsEntry_OnMouseExit(self)
+            </OnMouseExit>
+            <Controls>
+                <Label name="$(parent)Name" inherits="ZO_StatsRowName"/>
+		
+                <Label name="$(parent)Softcap_Value" inherits="ZO_StatsRowValue">
+                    <Anchor point="RIGHT" offsetX="-20" />
+                </Label>
+		
+                <Label name="$(parent)Softcap_Ratio" text="/" inherits="ZO_StatsRowValue">
+                    <Anchor point="RIGHT" relativeTo="$(parent)Softcap_Value" relativePoint="LEFT" offsetX="-2"/>
+                </Label>
+		
+                <Label name="$(parent)Softcap_Malus" inherits="ZO_StatsRowValue">
+                    <Anchor point="RIGHT" relativeTo="$(parent)Softcap_Ratio" relativePoint="LEFT" offsetX="-2"/>
+                </Label>
+		
+                <Label name="$(parent)Value" inherits="ZO_StatsRowValue">
+                    <Anchor point="RIGHT" relativeTo="$(parent)Softcap_Malus" relativePoint="LEFT" offsetX="-2"/>
+                </Label>
+                <Label name="$(parent)PendingBonus" hidden="true" inherits="ZO_StatsRowValue">
+                    <Anchor point="RIGHT" relativeTo="$(parent)Value" relativePoint="LEFT" offsetX="-20"/>
+                </Label>
+                <Texture name="$(parent)DiminishingReturns" textureFile="EsoUI/Art/Stats/diminishingReturns_icon.dds" hidden="true">
+                    <Dimensions x="16" y="16"/>
+                    <Anchor point="RIGHT"/>
+                </Texture>
+            </Controls>
+        </Control>
+	
+	<Control name="SCI_StatsRow" virtual="true">
+            <Dimensions x="607" y="20"/>
+            <Controls>
+                <Control name="$(parent)Stat1" inherits="SCI_StatsEntry">
+                    <Anchor point="LEFT"/>
+                </Control>
+                <Control name="$(parent)Stat2" inherits="SCI_StatsEntry">
+                    <Anchor point="RIGHT"/>
+                </Control>
+            </Controls>
+        </Control>
+    </Controls>
+</GuiXml>

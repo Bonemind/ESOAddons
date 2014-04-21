@@ -1,0 +1,6 @@
+## Title: SoftcapInfo
+## Author: Shinni
+## APIVersion: 100003
+
+SoftcapInfo.xml
+SoftcapInfo.lua
